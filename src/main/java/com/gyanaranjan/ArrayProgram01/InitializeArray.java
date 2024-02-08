@@ -9,7 +9,7 @@ class InitializeArray {
                 is high. However, arrays have relatively few predefined method . */
 
     // Array initialization in java :--
-    //              Array symbol is square bracket.--> [].
+    //              Array symbol is square bracket.--> []. not Array -- only symbol [].
     //               int [] array = new int[0];//--> initialized by new keyword , yes zero size can be declared.
 //                     int [] arr = new int [3];
 //                     arr[0]=1;
