@@ -17,16 +17,16 @@ public class Q01 {
                 break;
             }
         }
-            int sum = 0;
-            for (int num : arr){
-                sum += num;
-            }
-            System.out.println(sum);
-            double avg = (double) sum/ arr.length;
-            System.out.println(avg);
+//            int sum = 0;
+//            for (int num : arr){
+//                sum += num;
+//            }
+//            System.out.println(sum);
+//            double avg = (double) sum/ arr.length;
+//            System.out.println(avg);
 //        System.out.println(index);
-//        Arrays.sort(arr);
-//        System.out.println(Arrays.toString(arr ));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr ));
         }
     }
 

@@ -12,7 +12,6 @@ public class CharacterSequence {
     public static void main(String[] args) {
         String s = "GYANARAJANPANDA";
         IntStream Is = s.chars();
-        System.out.println(Is);
         Stream<Character> objectStream = Is.mapToObj(c ->(char)c);
         Map<Character, Long> collect = objectStream.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(collect);

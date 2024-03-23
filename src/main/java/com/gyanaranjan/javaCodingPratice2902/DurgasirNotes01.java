@@ -13,7 +13,7 @@ public class DurgasirNotes01 {
 //        for(int a : number){
 //            System.out.println(a);
 //        }
-        //CompatibleFuture :-
+        //CompatibleFuture :->
         CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> 42);
         future.thenAccept(result -> System.out.println("Result:  " + result));
         //Nashorn Engine :-

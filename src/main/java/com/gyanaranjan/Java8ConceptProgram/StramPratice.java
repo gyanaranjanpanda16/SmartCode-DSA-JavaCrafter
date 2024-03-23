@@ -10,7 +10,7 @@ public class StramPratice {
 
         List<Integer> updatedMarks = marks.stream()
                 .map(mark -> mark % 5 == 0? mark + 5 : mark )
-                .collect(Collectors.toList());
+                .toList();
 
         System.out.println("Original Marks: " + marks);
         System.out.println("Updated Marks: " + updatedMarks);
