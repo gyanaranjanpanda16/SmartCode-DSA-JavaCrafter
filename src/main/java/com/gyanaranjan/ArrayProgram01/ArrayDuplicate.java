@@ -9,8 +9,8 @@ public class ArrayDuplicate {
 //       for(int i=0;i< arr.length;i++){
 //           for(int j=0;j< arr.length;i++){
 //               if(arr[i]==arr[j]){
-//                   System.out.println(arr[i]);
-//               }
+////                   System.out.println(arr[i]);
+////               }
 //           }
 //       }
                 // Create a HashSet to store unique elements
@@ -21,7 +21,8 @@ public class ArrayDuplicate {
 
                 // Iterate through the array
                 for (int i = 0; i < arr.length; i++) {
-                    // If the element is not already present in the set, add it to both the set and the list
+                    // If the element is not already present in the set,
+                    // add it to both the set and the list
                     if (!set.contains(arr[i])) {
                         set.add(arr[i]);
                         uniqueList.add(arr[i]);

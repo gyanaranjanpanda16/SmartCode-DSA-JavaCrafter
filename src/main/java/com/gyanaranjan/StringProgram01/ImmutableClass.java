@@ -6,7 +6,7 @@ public class ImmutableClass {
     public ImmutableClass(int i) {
         this.i = i;
     }
-    public ImmutableClass modify(){
+    public ImmutableClass modify(int i){
         if(this.i ==i){
             return this;
         }

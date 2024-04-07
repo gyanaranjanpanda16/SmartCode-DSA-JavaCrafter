@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
-
+import  java.util.stream.IntStream;
 public class CharacterSequence {
     public static void main(String[] args) {
         String s = "GYANARAJANPANDA";

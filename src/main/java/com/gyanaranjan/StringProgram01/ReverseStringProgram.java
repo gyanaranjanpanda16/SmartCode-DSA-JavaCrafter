@@ -11,10 +11,11 @@ public class ReverseStringProgram {
 //        for (int i=0;i<a.length();i++){
 //            rev =rev+a.charAt(i);
 //        }
+//        System.out.println(rev);
         // Three way :--
 //        for(int i =a.length()-1;i>=0;i--){
 //            System.out.print(a.charAt(i));
 //        }
-//        System.out.println(rev);
+
     }
 }
