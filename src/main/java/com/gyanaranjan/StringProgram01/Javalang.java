@@ -40,7 +40,7 @@ public class Javalang {
                 // wait(), notify(), notifyAll() methods
                 synchronized (obj1) {
                     try {
-                        obj1.wait();
+                        obj2.wait();
                         obj1.notify();
                         obj1.notifyAll();
                     } catch (InterruptedException e) {
