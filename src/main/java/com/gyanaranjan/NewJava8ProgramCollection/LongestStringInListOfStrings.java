@@ -8,11 +8,12 @@ public class LongestStringInListOfStrings {
             List<String> words = Arrays.asList("Apple", "Banana", "Orange", "Grape", "Mango");
 
             // Find the longest word in the list
-            Optional<String> longestWord = words.stream()
-                    .max(Comparator.comparingInt(String::length));
+            String s = words.stream()
+                    .max(Comparator.comparingInt(String::length)).get();
 
             // Print the longest word if present
-            longestWord.ifPresent(word -> System.out.println("Longest word: " + word));
+            System.out.println(s);
+
         }
     }
 
