@@ -8,7 +8,7 @@ public class ReverseEachWordOfString {
         String input = "hewhsf  nhfsjkfjs  jfjsfk  sj";
         String[] strArr=input.split(" ");
 //        System.out.println(Arrays.toString(strArr));
-        List<String> list = Arrays.stream(strArr).map((w) -> new StringBuilder(w).reverse()
+        List<String> list = Arrays.stream(strArr).map(w-> new StringBuilder(w).reverse()
                 .toString()).toList();
        System.out.println(list);
     }

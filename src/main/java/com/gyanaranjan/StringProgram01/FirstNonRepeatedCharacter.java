@@ -1,6 +1,6 @@
 package com.gyanaranjan.StringProgram01;
 
-public class FirstNonRepeatedCharacter {
+public class  FirstNonRepeatedCharacter {
 
 
     public static void main(String[] args) {
