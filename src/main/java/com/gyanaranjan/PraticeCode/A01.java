@@ -1,4 +1,4 @@
-package com.gyanaranjan.praticecode;
+package com.gyanaranjan.PraticeCode;
 
 public class A01 {
 
