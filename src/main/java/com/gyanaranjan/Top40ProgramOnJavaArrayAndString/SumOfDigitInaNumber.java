@@ -1,6 +1,4 @@
-package com.gyanaranjan.Top30ProgramOnArrayAndString;
-
-import java.util.stream.Stream;
+package com.gyanaranjan.Top40ProgramOnJavaArrayAndString;
 
 public class SumOfDigitInaNumber {
     public static void main(String[] args) {

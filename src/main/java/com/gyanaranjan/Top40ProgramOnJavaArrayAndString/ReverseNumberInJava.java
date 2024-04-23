@@ -1,6 +1,4 @@
-package com.gyanaranjan.Top30ProgramOnArrayAndString;
-
-import java.util.Arrays;
+package com.gyanaranjan.Top40ProgramOnJavaArrayAndString;
 
 public class ReverseNumberInJava {
     public static void main(String[] args) {

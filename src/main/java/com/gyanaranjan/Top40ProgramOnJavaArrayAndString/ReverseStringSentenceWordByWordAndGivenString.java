@@ -1,4 +1,4 @@
-package com.gyanaranjan.Top30ProgramOnArrayAndString;
+package com.gyanaranjan.Top40ProgramOnJavaArrayAndString;
 
 public class ReverseStringSentenceWordByWordAndGivenString {
     public static void main(String[] args) {
