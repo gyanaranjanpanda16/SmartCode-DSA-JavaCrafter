@@ -1,4 +1,4 @@
-package com.gyanaranjan.praticecode;
+package com.gyanaranjan.PraticeCode;
 
 public class A06 {
     // Method to check if a number is prime

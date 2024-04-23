@@ -1,4 +1,4 @@
-package com.gyanaranjan.praticecode;
+package com.gyanaranjan.PraticeCode;
 
 import java.util.Arrays;
 import java.util.Iterator;

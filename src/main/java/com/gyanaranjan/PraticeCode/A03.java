@@ -1,4 +1,4 @@
-package com.gyanaranjan.praticecode;
+package com.gyanaranjan.PraticeCode;
 
  class A03 {
      public static int sum(int[] x){
