@@ -7,11 +7,11 @@ import java.util.ListIterator;
 
 public class Alliterator {
     public static void main(String[] args) {
-      List objects = new ArrayList<>();
-      objects.add("b");
-      objects.add("d");
-      objects.add("e");
-      objects.add("w");
+      List list = new ArrayList<>();
+      list.add("b");
+      list .add("d");
+      list .add("e");
+      list .add("w");
 //      Iterator ite = objects.iterator();
 //        while(ite.hasNext()){
 //            System.out.println(ite.next());
@@ -22,12 +22,12 @@ public class Alliterator {
 //        System.out.println(objects);
 //        iterator works only one direction .
 //        list-iterator works on bidirectional.
-        ArrayList list1 = new ArrayList();
-        ListIterator list = objects.listIterator(objects.size());
-        while(list.hasPrevious()){
-          list1.add(list.previous());
+        ArrayList list2 = new ArrayList();
+        ListIterator list1 = list .listIterator(list .size());
+        while(list1.hasPrevious()){
+          list1.add(list1.previous());
         }
-        for(Object obj : list1){
+        for(Object obj : list2){
             System.out.print(obj);
         }
         }

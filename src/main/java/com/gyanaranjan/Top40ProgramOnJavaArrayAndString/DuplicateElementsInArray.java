@@ -10,7 +10,7 @@ public class DuplicateElementsInArray {
         int [] arr= {10,5,6,7,8,5,10};  // find duplicate element
 
         // take an data structure  way :--
-        HashSet<Object> objects = new HashSet<>();
+        HashSet<Object> numSet = new HashSet<>();
         HashSet<Object> duplicateStrings = new HashSet<>();
 //        for(String s :str){
 //              if(!objects.add(s))   {
@@ -19,7 +19,7 @@ public class DuplicateElementsInArray {
 //        }
 //        System.out.println(duplicateStrings);
         for(int a :arr){
-             if(!objects.add(a))   {
+             if(!numSet.add(a))   {
                   duplicateStrings.add(a);
               };
         }
