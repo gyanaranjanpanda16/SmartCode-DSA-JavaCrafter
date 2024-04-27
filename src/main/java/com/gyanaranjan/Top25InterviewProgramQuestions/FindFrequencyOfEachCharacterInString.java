@@ -11,7 +11,7 @@ public class FindFrequencyOfEachCharacterInString {
         String str = "gyanaranjan";
         int [] arr = {20,50,60,50,80};
 //        Map<Character, Long> collect = str.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-//        Map<Integer, Long> collect =Arrays.stream(arr).mapToLong(c -> (Integer) c).boxed().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-//        collect.forEach((k,v)-> System.out.print((k +" : "+v+" ")));
+        Map<Integer, Long> collect =Arrays.stream(arr).map(c -> (Integer) c).boxed().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        collect.forEach((k,v)-> System.out.print((k +" : "+v+" ")));
     }
 }

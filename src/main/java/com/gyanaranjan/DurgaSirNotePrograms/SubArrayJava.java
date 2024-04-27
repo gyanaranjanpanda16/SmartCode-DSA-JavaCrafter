@@ -1,6 +1,6 @@
 package com.gyanaranjan.DurgaSirNotePrograms;
 
-public class P02 {
+public class SubArrayJava {
         public void reverseSubarray(int[] arr, int start, int end) {
             while (start < end) {
                 int temp = arr[start];
@@ -13,7 +13,7 @@ public class P02 {
 
         public static void main(String[] args) {
             int[] arr = {1, 2, 3, 4, 5, 6};
-          P02 arrayReversal = new P02();
+          SubArrayJava arrayReversal = new SubArrayJava();
             int startIndex = 2;
             int endIndex = 3;
             System.out.println("Original Array: ");

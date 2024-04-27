@@ -9,8 +9,6 @@ public class Test03 {
 	 Scanner a = new Scanner(System.in);
 	 int year =a.nextInt();
 	 a.close();
-	 
-	
 		if(year%4==0) 
 			 System.out.println(" this year is a leap year");
 		 

@@ -1,8 +1,7 @@
-package com.gyanaranjan.StringProgram01;
+package com.gyanaranjan.StringImportantsPrograms;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class CharacterOccuranceInString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.gyanaranjan.StringProgram01;
+package com.gyanaranjan.StringImportantsPrograms;
 
 
 // " java.lang package provides classes that are fundamental to the design of the Java programming language":-
