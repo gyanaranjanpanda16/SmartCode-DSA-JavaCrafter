@@ -10,7 +10,7 @@ public class Test08 {
     	System.out.println("Parent class Constructor :");
     }
     public static void main(String[] args) {
-//		Test08 t = new Test08();
+//		LengthOfGivenNumber t = new LengthOfGivenNumber();
 		System.out.println("main Method");
 	}
     public void methodOne() {

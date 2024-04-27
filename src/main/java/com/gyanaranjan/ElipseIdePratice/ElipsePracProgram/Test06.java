@@ -4,9 +4,7 @@ import java.util.*;
 public class Test06 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
+
 	Scanner b =new Scanner(System.in);
 	System.out.println("ENTER THE NUMBER THAT WANT TO PRINT TABLE");
     int a=b.nextInt();

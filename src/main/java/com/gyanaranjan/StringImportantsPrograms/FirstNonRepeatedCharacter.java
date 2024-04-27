@@ -1,4 +1,4 @@
-package com.gyanaranjan.StringProgram01;
+package com.gyanaranjan.StringImportantsPrograms;
 
 public class  FirstNonRepeatedCharacter {
 

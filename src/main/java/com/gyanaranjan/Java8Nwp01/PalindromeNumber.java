@@ -1,4 +1,4 @@
-package com.gyanaranjan.Java8NewProgram;
+package com.gyanaranjan.Java8Nwp01;
 
 /**
  * check palindrome that 121 --> 121 (true)

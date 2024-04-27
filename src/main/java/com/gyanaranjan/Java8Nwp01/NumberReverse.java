@@ -1,4 +1,4 @@
-package com.gyanaranjan.Java8NewProgram;
+package com.gyanaranjan.Java8Nwp01;
 
 //  user will give input :- 14
 //                 output :- 41 (should Receive)

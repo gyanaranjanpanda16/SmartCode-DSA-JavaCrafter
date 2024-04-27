@@ -1,4 +1,4 @@
-package com.gyanaranjan.StringProgram01;
+package com.gyanaranjan.StringImportantsPrograms;
 
 // Compare the String Value :-->
 

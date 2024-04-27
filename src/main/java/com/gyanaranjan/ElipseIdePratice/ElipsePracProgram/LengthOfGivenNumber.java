@@ -1,18 +1,16 @@
 package com.gyanaranjan.ElipseIdePratice.ElipsePracProgram;
 
-public class Test08 {
+public class LengthOfGivenNumber {
 	 public static void main(String[]args) {
-		 
-		 
-		 int no = 564734637;
+		 int number = 564734637;
 		 int leng =0;
-		 int temp= no;
+		 int temp= number;
 		 while(temp!=0) {
 			 leng=leng+1;
 			 temp=temp/10;
 			 
 		 }
-		 System.out.println("lenth of "+no+"  is    "+ leng);
+		 System.out.println("lenth of "+number+"  is    "+ leng);
 	 }
 
 }
