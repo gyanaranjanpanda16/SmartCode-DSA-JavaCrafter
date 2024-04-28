@@ -13,7 +13,7 @@ public class SpilteratorAndIteraratorWithCollectorsJoining {
         strList.add("ram");
         strList.add("hari");
 //        Spliterator<String> spliterator = strList.spliterator();
-//        Iterator<String> iterator = strList.iterator();
+//        Iterator01<String> iterator = strList.iterator();
 //        spliterator.forEachRemaining(System.out::println);
 //        iterator.forEachRemaining(System.out::println);
 //        String collect = strList.stream().collect(Collectors.joining("=+=", "[", "]"));

@@ -12,7 +12,7 @@ public class Alliterator {
       list .add("d");
       list .add("e");
       list .add("w");
-//      Iterator ite = objects.iterator();
+//      Iterator01 ite = objects.iterator();
 //        while(ite.hasNext()){
 //            System.out.println(ite.next());
 //        }
