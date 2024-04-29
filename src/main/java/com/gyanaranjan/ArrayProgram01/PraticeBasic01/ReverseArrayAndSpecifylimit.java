@@ -32,7 +32,7 @@ public class ReverseArrayAndSpecifylimit {
         int [] arr= {1,6,8,9,0,7,6,10};
         ReverseArrayAndSpecifylimit reverseArrayAndSpecifylimit = new ReverseArrayAndSpecifylimit();
 //        reverseArrayAndSpecifylimit.reverseArray(arr);
-        reverseArrayAndSpecifylimit.reverseArray(arr,2,4);
+        reverseArrayAndSpecifylimit.reverseArray(arr,5,7);
         System.out.println(Arrays.toString(arr));
 
     }

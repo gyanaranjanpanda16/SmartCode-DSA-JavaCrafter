@@ -5,6 +5,7 @@ public class Test03 {
     String str = "gyanaranjan";
     static  int a =10;
     static void add(){
+
         System.out.println("static method ");
     }
    static {
