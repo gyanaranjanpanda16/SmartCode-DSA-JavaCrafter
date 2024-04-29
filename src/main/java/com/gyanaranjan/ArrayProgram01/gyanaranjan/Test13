@@ -1,0 +1,31 @@
+package com.gyanaranjan;
+
+import java.util.Arrays;
+
+public class Test13 {
+    public static void main(String[] args) {
+        int[] numbers = {5, 2, 9, 1, 7, 4, 8};
+        int k = 3; // Change this value to find different Kth elements
+
+        // Call the findKthSmallest and findKthLargest methods
+        int kthSmallest = findKthSmallest(numbers, k);
+        int kthLargest = findKthLargest(numbers, k);
+
+        // Display the results
+        System.out.println("Array: " + Arrays.toString(numbers));
+        System.out.println(k + "th Smallest Element: " + kthSmallest);
+        System.out.println(k + "th Largest Element: " + kthLargest);
+    }
+
+    // Method to find the Kth smallest element in an array
+    private static int findKthSmallest(int[] arr, int k) {
+        Arrays.sort(arr);
+        return arr[k - 1];
+    }
+
+    // Method to find the Kth largest element in an array
+    private static int findKthLargest(int[] arr, int k) {
+        Arrays.sort(arr);
+        return arr[arr.length - k];
+    }
+}
