@@ -13,7 +13,7 @@ public class PersonGroupingBy {
             listGroups.add(new Person("laxmi",25));
             listGroups.add(new Person("soumya",30));
         Map<Integer, List<Person>> collect = listGroups.stream().collect(Collectors.groupingBy(Person::getAge));
-//        Iterator<Map.Entry<Integer, List<Person>>> iterator = collect.entrySet().iterator();
+//        Iterator01<Map.Entry<Integer, List<Person>>> iterator = collect.entrySet().iterator();
 //        while ((iterator.hasNext())){
 //            Map.Entry<Integer, List<Person>> next = iterator.next();
 //            System.out.println(next.getKey() + ":"+next.getValue());

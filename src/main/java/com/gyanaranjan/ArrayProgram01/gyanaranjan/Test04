@@ -1,0 +1,28 @@
+package com.gyanaranjan;
+
+class CustomExceptionClass extends Throwable {
+    CustomExceptionClass(String s) {
+        super(s);
+    }
+}
+
+public class Test04 {
+    public static void main(String[] args) throws CustomExceptionClass {
+//        try {
+//            int a = 0, b = 10;
+//            int c = b / a;
+//        } catch (ArithmeticException e) {
+//            throw new CustomExceptionClass("Division by zero is not allowed.");
+//        }
+
+        try {
+            System.out.println("hii");
+            int a = 0;
+            if (a == 0) {
+                throw new CustomExceptionClass("This is wrong input.");
+            }
+        } catch (CustomExceptionClass e) {
+            System.out.println("Caught custom exception: " + e.getMessage());
+        }
+    }
+}
