@@ -9,7 +9,7 @@ public class CountNumberInDigit {
         // using data Stucture :-->
         int cnt =0;
         while(num>0){
-            num = num/10;
+            num /=10;
             cnt++;
         }
         System.out.println("Number of Digit :"+cnt);

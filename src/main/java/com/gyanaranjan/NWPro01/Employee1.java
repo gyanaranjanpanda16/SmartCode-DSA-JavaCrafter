@@ -1,11 +1,15 @@
 package com.gyanaranjan.NWPro01;
 
- class Employee {
+import com.gyanaranjan.MasterInJava8Program.Address;
+
+import java.util.List;
+
+class Employee1 {
     private  String name;
-    private int age;
+    private List<Address> age;
     private double salary;
 
-     public Employee(String name, int age, double salary) {
+     public Employee1(String name, List<Address> age, double salary) {
          this.name = name;
          this.age = age;
          this.salary = salary;
@@ -15,7 +19,7 @@ package com.gyanaranjan.NWPro01;
          return name;
      }
 
-     public int getAge() {
+     public List<Address> getAge() {
          return age;
      }
 
@@ -25,10 +29,11 @@ package com.gyanaranjan.NWPro01;
 
      @Override
      public String toString() {
-         return "Employee{" +
+         return "Employee1{" +
                  "name='" + name + '\'' +
                  ", age=" + age +
                  ", salary=" + salary +
                  '}';
      }
- }
+
+   }

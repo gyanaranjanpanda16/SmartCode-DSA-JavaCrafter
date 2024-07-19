@@ -19,7 +19,7 @@ public class ComparatorProgram01 {
 //        System.out.println(names);
 //        names.sort((name1, name2) ->name1.compareTo(name2));
 //        names.sort(Comparator.naturalOrder());
-//        names.sort(String::compareTo);
+        names.sort(String::compareTo);
         System.out.println(names);
 
 

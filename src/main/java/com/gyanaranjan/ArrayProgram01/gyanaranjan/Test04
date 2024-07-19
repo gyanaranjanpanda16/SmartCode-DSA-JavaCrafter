@@ -7,13 +7,13 @@ class CustomExceptionClass extends Throwable {
 }
 
 public class Test04 {
-    public static void main(String[] args) throws CustomExceptionClass {
-//        try {
-//            int a = 0, b = 10;
-//            int c = b / a;
-//        } catch (ArithmeticException e) {
-//            throw new CustomExceptionClass("Division by zero is not allowed.");
-//        }
+    public static void main(String[] args)  {
+        try {
+            int a = 0, b = 10;
+            int c = b / a;
+        } catch (ArithmeticException e) {
+            throw new CustomExceptionClass("Division by zero is not allowed.");
+       }
 
         try {
             System.out.println("hii");

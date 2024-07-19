@@ -14,7 +14,7 @@ public class AnagramOfString {
         String str1 = String.valueOf(charArray1);
         // if(str.equals(str1)){
            if(Arrays.equals(charArray,charArray1)){
-            System.out.println("given Strings are  Anagram");
+            System.out.println("Given Strings are  Anagram");
         }else {
             System.out.println("Given Strings are Not  Anagram");
         }
