@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class Stream01 {
     public static void main(String[] args) throws InterruptedException {
-        Optional reduce = Stream.of().reduce(   (a, b)-> a.equals(b));
+        Optional reduce = Stream.of().reduce((a, b)-> a.equals(b));
 //        System.out.println(reduce.isPresent()?reduce.get():"Empty Stream");
         System.out.println(reduce);
 

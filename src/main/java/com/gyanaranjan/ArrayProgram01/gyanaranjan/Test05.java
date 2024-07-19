@@ -1,4 +1,11 @@
 package com.gyanaranjan.ArrayProgram01.gyanaranjan;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.OptionalInt;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 //wap to find Max and min in given Array ?
 public class Test05 {
     public static void main(String[] args) {
@@ -16,7 +23,6 @@ public class Test05 {
         }
         System.out.println(max);
         System.out.println(min);
-
 
     }
 }
