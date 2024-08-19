@@ -32,40 +32,41 @@ To get started with the repository, follow these steps:
    ```bash
    git clone https://github.com/yourusername/java-dsa-practice.git
 Navigate to the repository directory:
+Navigate to the repository directory, build, and run the project:
 
 bash
 Copy code
 cd java-dsa-practice
-Build and run the project:
-If you're using Maven, you can build the project using:
-
-bash
-Copy code
 mvn clean install
 You can then run the individual programs or tests as needed.
 
 Explore and practice:
 Browse through the dsa and practice directories to find various Java programs and DSA implementations. Modify, experiment, and learn as you go.
 
-How to Contribute
+## How to Contribute
+
 Contributions are welcome! If you'd like to contribute to this repository, please follow these steps:
 
 Fork the repository.
 Create a new branch:
-bash
+```bash
 Copy code
 git checkout -b feature-branch
 Make your changes and commit them:
-bash
+```bash
 Copy code
 git commit -m "Add your message here"
 Push to your branch:
-bash
+```bash
 Copy code
 git push origin feature-branch
 Create a pull request against the main repository.
-License
+## License
+
 This repository is licensed under the MIT License. See the LICENSE file for more information.
 
-Acknowledgments
+## Acknowledgments
+
 Special thanks to all the contributors and the open-source community for their valuable input and resources. This repository wouldn't be possible without your support.
+
+
