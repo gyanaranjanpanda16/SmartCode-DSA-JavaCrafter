@@ -45,18 +45,21 @@ Browse through the dsa and practice directories to find various Java programs an
 
 ## How to Contribute
 
-Contributions are welcome! If you'd like to contribute to this repository, please follow these steps:
+**Contributions are welcome!** If you'd like to contribute to this repository, please follow these steps:
 
-Fork the repository.
-Create a new branch:
-```bash
-Copy code
-git checkout -b feature-branch
+1. **Fork the repository.**
+
+2. **Create a new branch:**
+
+   ```bash
+   git checkout -b feature-branch
 Make your changes and commit them:
+
 ```bash
 Copy code
 git commit -m "Add your message here"
 Push to your branch:
+
 ```bash
 Copy code
 git push origin feature-branch
@@ -68,5 +71,4 @@ This repository is licensed under the MIT License. See the LICENSE file for more
 ## Acknowledgments
 
 Special thanks to all the contributors and the open-source community for their valuable input and resources. This repository wouldn't be possible without your support.
-
 
